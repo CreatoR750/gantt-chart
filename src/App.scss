@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Montserrat:wght@100;300;400;500;700&family=Righteous&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    color: #262842;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+@media screen and (max-width: 1500px) {
+    .container {
+        margin: 0 auto;
+        width: 90vw;
+    }
+}
